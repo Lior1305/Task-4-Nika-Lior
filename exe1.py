@@ -46,8 +46,9 @@ def main():
 
     producer.flush()
     producer.close()
-    print(f"✅ Produced {sent} messages to topic '{args.topic}'")
+    print(f" Produced {sent} messages to topic '{args.topic}'")
 
 if __name__ == "__main__":
     main()
+
 
